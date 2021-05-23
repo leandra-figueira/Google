@@ -49,7 +49,7 @@ public class TestGoogleSearch {
         List<WebElement> results = driver.findElements(By.cssSelector("a > h3"));
         for (int i=0; i<results.size(); i++)
         {
-            if (results.get(i).getText().contains("My Sweet Canada"))
+            if (results.get(i).getText().contains("Onde encontrar ovos de páscoa em Toronto"))
             {
                 results.get(i).click();
                 break;
